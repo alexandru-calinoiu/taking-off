@@ -1,0 +1,1 @@
+{thing_one, thing_two} = {22, "Steve"}
