@@ -2,7 +2,7 @@ defmodule Physics.Rocketry do
 	import Converter
 	import Calcs
 	import Planets
-	import Physics.Laws
+	import Physics.Laws, only: [newtons_gravitational_constant: 0]
 
 	def escape_velocity(:mars), do: moon |> escape_velocity		
 
