@@ -27,6 +27,11 @@ defmodule Physics.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:timex, "~> 2.2.1"}]
+    [
+      {:timex, "~> 2.1.4"}, 
+      {:amnesia, ">= 0.0.0"},  
+      {:postgrex, ">= 0.0.0"},
+      {:ecto, "~> 2.0.2"}
+    ] 
   end
 end

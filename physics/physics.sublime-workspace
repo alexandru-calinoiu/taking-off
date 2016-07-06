@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"to",
+				"total"
+			],
+			[
+				"tot",
+				"total_flare_power"
+			],
+			[
+				"count",
+				"count"
+			],
+			[
+				"So",
+				"solar"
+			],
+			[
 				"to_",
 				"to_km"
 			],
@@ -35,7 +51,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 35.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -89,15 +105,17 @@
 		"/home/calin/Playground/take_off_with_elixir/physics",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics",
-		"/home/calin/Playground/take_off_with_elixir/physics/test",
-		"/home/calin/Playground/take_off_with_elixir/physics/test/physics"
+		"/home/calin/Playground/take_off_with_elixir/physics/test"
 	],
 	"file_history":
 	[
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/solar.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/test/solar_test.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/mix.exs",
 		"/home/calin/Playground/take_off_with_elixir/physics/test/physics/rocketry_test.exs",
-		"/home/calin/Playground/take_off_with_elixir/physics/lib/calcs.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/rocketry.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/converter.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/calcs.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/test/converter_test.exs",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/planets.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/laws.ex",
@@ -128,6 +146,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1000",
+			"total_flare_power_comprehension",
+			"total_flare_power",
+			"flares",
+			"count_planets",
+			"def",
 			"orbital_height",
 			"obital_duration",
 			"orbital_acceleration",
@@ -210,6 +234,42 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"solar.x",
+				"lib/solar.ex"
+			],
+			[
+				"sola",
+				"test/solar_test.exs"
+			],
+			[
+				"solar",
+				"test/solar_test.exs"
+			],
+			[
+				"soalr",
+				"lib/solar.ex"
+			],
+			[
+				"roc_te",
+				"test/physics/rocketry_test.exs"
+			],
+			[
+				"conev",
+				"lib/converter.ex"
+			],
+			[
+				"rocke_",
+				"test/physics/rocketry_test.exs"
+			],
+			[
+				"roke",
+				"lib/physics/rocketry.ex"
+			],
+			[
+				"solar.te",
+				"test/solar_test.exs"
+			],
 			[
 				"conver",
 				"lib/converter.ex"
