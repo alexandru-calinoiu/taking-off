@@ -18,6 +18,6 @@ defmodule Mix.Tasks.Physics.LoadFlares do
 
 		for flare <- flares, do: struct(Physics.SolarFlare, flare) |> Physics.Repo.insert!
 
-    Mix.shell.info "Flares where added"
+    Mix.shell.info "Flares where added."
 	end
 end
