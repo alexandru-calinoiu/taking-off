@@ -5,10 +5,17 @@ defmodule SolarFlareRecorder do
 		Agent.start_link fn -> [] end
 	end
 
+	# public API
 	def record_flare(pid, {:flare} = flare) do
 		Agent.get_and_update pid, fn(flares) ->
 			new_state = List.insert_at flares, -1, flare
 			{:ok, new_state}
+		end
+	end
+
+	def get_flares(pid) do
+		Agent.get pid, fn(flares) ->
+			flares
 		end
 	end
 end
