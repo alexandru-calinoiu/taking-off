@@ -1,4 +1,4 @@
-%{"amnesia": {:hex, :amnesia, "0.2.4", "11b162cf4a0d82f64a57317116c27a27e36fbc49fc9fe98694b2d8a0704a2657", [:mix], [{:exquisite, "~> 0.1.6", [hex: :exquisite, optional: false]}]},
+%{"amnesia": {:hex, :amnesia, "0.2.1", "af49d863b3fd37a04f231c66e0630c4bb547e2b011d7ed36d46b0c647b53ab24", [:mix], [{:exquisite, "~> 0.1.6", [hex: :exquisite, optional: false]}]},
   "certifi": {:hex, :certifi, "0.4.0", "a7966efb868b179023618d29a407548f70c52466bf1849b9e8ebd0e34b7ea11f", [:rebar3], []},
   "combine": {:hex, :combine, "0.9.1", "5fd778ee77032ae593bf79aedb8519d9e36283e4f869abd98c2d6029ca476db8", [:mix], []},
   "connection": {:hex, :connection, "1.0.3", "3145f7416be3df248a4935f24e3221dc467c1e3a158d62015b35bd54da365786", [:mix], []},

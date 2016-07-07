@@ -61,6 +61,6 @@ defmodule SolarTest do
 	end
 
 	test "flare_list marks the deadly flares", %{data: flares} do
-		Solar.flare_list(flares) |> IO.inspect
+		Solar.flare_list(flares)
 	end
 end

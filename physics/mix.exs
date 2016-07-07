@@ -29,7 +29,7 @@ defmodule Physics.Mixfile do
   defp deps do
     [
       {:timex, "~> 2.1.4"}, 
-      {:amnesia, ">= 0.0.0"},  
+      {:amnesia, ">= 0.0.0"},
       {:postgrex, ">= 0.0.0"},
       {:ecto, "~> 2.0.2"}
     ] 
