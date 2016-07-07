@@ -52,11 +52,12 @@
 	"buffers":
 	[
 		{
-			"file": "bomb.exs",
+			"file": "choir.exs",
 			"settings":
 			{
-				"buffer_size": 900,
-				"line_ending": "Unix"
+				"buffer_size": 517,
+				"line_ending": "Unix",
+				"name": "defmodule Choir do"
 			}
 		}
 	],
@@ -123,16 +124,13 @@
 	"expanded_folders":
 	[
 		"/home/calin/Playground/take_off_with_elixir/physics",
-		"/home/calin/Playground/take_off_with_elixir/physics/config",
-		"/home/calin/Playground/take_off_with_elixir/physics/lib",
-		"/home/calin/Playground/take_off_with_elixir/physics/priv",
 		"/home/calin/Playground/take_off_with_elixir/physics/priv/repo",
 		"/home/calin/Playground/take_off_with_elixir/physics/priv/repo/migrations",
-		"/home/calin/Playground/take_off_with_elixir/physics/test",
 		"/home/calin/Playground/take_off_with_elixir/physics/test/physics"
 	],
 	"file_history":
 	[
+		"/home/calin/Playground/take_off_with_elixir/physics/bomb.exs",
 		"/home/calin/Playground/take_off_with_elixir/taking-off/config/config.exs",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/solar_flare.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/bomb.exs",
@@ -231,25 +229,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "bomb.exs",
+					"file": "choir.exs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 900,
+						"buffer_size": 517,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								399,
-								399
+								508,
+								508
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Elixir/Syntaxes/Elixir.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "defmodule Choir do",
+							"syntax": "Packages/Elixir/Syntaxes/Elixir.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
