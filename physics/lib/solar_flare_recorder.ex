@@ -1,4 +1,4 @@
-defmodule SolarFlareRecorder do
+defmodule SolarFlareRecorderNew do
 	use GenServer
 
 	def start_link do

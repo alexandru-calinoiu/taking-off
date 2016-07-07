@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pla",
+				"planets"
+			],
+			[
 				"Ame",
 				"Amnesia"
 			],
@@ -48,37 +52,10 @@
 	"buffers":
 	[
 		{
-			"file": "mix.exs",
+			"file": "bomb.exs",
 			"settings":
 			{
-				"buffer_size": 817,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/config.exs",
-			"settings":
-			{
-				"buffer_size": 338,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "defmodule Physics.Repo do\n	use Ecto.Repo, otp_app: :physics\nend ",
-			"file": "lib/physics/repo.ex",
-			"file_size": 63,
-			"file_write_time": 131123507103284061,
-			"settings":
-			{
-				"buffer_size": 64,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/solar_flare_recorder.ex",
-			"settings":
-			{
-				"buffer_size": 701,
+				"buffer_size": 900,
 				"line_ending": "Unix"
 			}
 		}
@@ -90,10 +67,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 35.0,
-		"last_filter": "",
+		"height": 392.0,
+		"last_filter": "intent",
 		"selected_items":
 		[
+			[
+				"intent",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"",
 				"Build With: elixir-mix-test"
@@ -144,29 +125,44 @@
 		"/home/calin/Playground/take_off_with_elixir/physics",
 		"/home/calin/Playground/take_off_with_elixir/physics/config",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib",
-		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics",
 		"/home/calin/Playground/take_off_with_elixir/physics/priv",
-		"/home/calin/Playground/take_off_with_elixir/physics/test"
+		"/home/calin/Playground/take_off_with_elixir/physics/priv/repo",
+		"/home/calin/Playground/take_off_with_elixir/physics/priv/repo/migrations",
+		"/home/calin/Playground/take_off_with_elixir/physics/test",
+		"/home/calin/Playground/take_off_with_elixir/physics/test/physics"
 	],
 	"file_history":
 	[
-		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/database.ex",
-		"/home/calin/Playground/take_off_with_elixir/physics/test/amenisia_test.exs",
-		"/home/calin/Playground/take_off_with_elixir/physics/mix.exs",
-		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/rocketry.ex",
+		"/home/calin/Playground/take_off_with_elixir/taking-off/config/config.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/solar_flare.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/bomb.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/config/config.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/solar_flare_recorder.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/mix/tasks/load_flares.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/mix/tasks/load_planets.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/planet.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/planet.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/database.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/priv/repo/migrations/20160707081557_add_planets_table.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/test/planet_test.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/test/physics/rocketry_test.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/test/physics/planet_test.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/rocketry.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/mix.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/repo.ex",
+		"/home/calin/Playground/take_off_with_elixir/physics/priv/repo/migrations/20160707073905_add_solar_flares_table.exs",
 		"/home/calin/Playground/take_off_with_elixir/physics/test/solar_test.exs",
+		"/home/calin/Playground/take_off_with_elixir/physics/test/amenisia_test.exs",
 		"/home/calin/Playground/take_off_with_elixir/physics/test/converter_test.exs",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/planets.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/solar.ex",
-		"/home/calin/Playground/take_off_with_elixir/physics/test/physics/rocketry_test.exs",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/converter.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/calcs.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/laws.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/test/rocketry_test.exs",
 		"/home/calin/Playground/take_off_with_elixir/physics/test/physics/converter_test.exs",
 		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics/converter.ex",
-		"/home/calin/Playground/take_off_with_elixir/physics/lib/physics.ex",
 		"/home/calin/Playground/take_off_with_elixir/physics/test/physics_test.exs",
 		"/home/calin/Downloads/contact.txt",
 		"/home/calin/Playground/take_off_with_elixir/convert.exs",
@@ -190,6 +186,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"classification",
+			"physics",
+			"defmodule",
+			"gaseous",
+			"rocky",
+			"timestamps",
+			"type",
+			"gaseous",
+			"rocky",
 			"1000",
 			"total_flare_power_comprehension",
 			"total_flare_power",
@@ -221,122 +226,36 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mix.exs",
+					"file": "bomb.exs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 817,
+						"buffer_size": 900,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								409,
-								409
+								399,
+								399
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Elixir/Syntaxes/Elixir.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/config.exs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 338,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								337,
-								337
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Elixir/Syntaxes/Elixir.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "lib/physics/repo.ex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 64,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								64,
-								64
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Elixir/Syntaxes/Elixir.tmLanguage"
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "lib/solar_flare_recorder.ex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 701,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								118,
-								118
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Elixir/Syntaxes/Elixir.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -394,6 +313,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"solar_fla",
+				"lib/physics/solar_flare.ex"
+			],
+			[
+				"con",
+				"config/config.exs"
+			],
+			[
+				"flare.e",
+				"lib/physics/solar_flare.ex"
+			],
+			[
+				"load",
+				"lib/mix/tasks/load_planets.ex"
+			],
+			[
+				"pla",
+				"lib/planet.ex"
+			],
+			[
+				"plane",
+				"lib/planet.ex"
+			],
 			[
 				"data",
 				"lib/physics/database.ex"
@@ -511,7 +454,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 245.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
